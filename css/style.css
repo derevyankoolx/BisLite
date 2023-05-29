@@ -17,6 +17,8 @@ html {
 
 body {
     font-family: sans-serif;
+    line-height: 20px;
+    font-size: 15px;
 }
 
 ul,
@@ -56,6 +58,7 @@ dd {
 body {
     font-family: 'Lato', sans-serif;
     line-height: 20px;
+    font-size: 15px;
 }
 
 .container {
@@ -248,11 +251,11 @@ body {
 }
 
 .item__title {
-    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     padding: 10px 0 0 60px;
     margin-bottom: 30px;
+    font-size: 15px;
     position: relative;
 }
 
@@ -293,5 +296,25 @@ body {
     width: 5px;
     height: 7px;
 }
+
+.works__title {
+    padding: 25px 0 15px 40px;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.works__title:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/slider/cursor.svg);
+}
+
+
+
 
 @media screen and (max-width: 1400px) {}
